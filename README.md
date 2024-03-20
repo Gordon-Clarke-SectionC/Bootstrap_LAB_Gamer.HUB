@@ -15,7 +15,6 @@ To view and test the webpage:
 2. Open the `index.html` file in a web browser.
 3. Navigate through the different sections of the website using the navigation bar.
 4. Explore the featured content, including gaming realm heroes, new releases, and latest reviews.
-5. Use the contact form to reach out with any questions or feedback.
 
 ## Featured Content
 
