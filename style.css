@@ -1,0 +1,230 @@
+body {
+    background-image: url('Gaming_bg-transformed.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+@media (max-width: 351px) {
+    .hometitle {
+        font-size: 250%;
+    }
+
+    .herotitle {
+        font-size: 80%;
+    }
+
+    .card-text {
+        display: none;
+    }
+
+    .navbar-brand {
+        font-size: 75%;
+    }
+
+
+
+}
+
+@media (min-width: 300px) and (max-width: 1650px) {
+    .rcol {
+        min-width: 90%;
+    }
+   
+}
+
+
+
+@media (min-width: 300px) and (max-width: 575px) {
+    .coltext {
+        margin-bottom: 1em;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .imgcol {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+}
+
+@media (min-width: 576px) {
+    .coltext {
+        margin-bottom: 1em;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .imgcol {
+        margin-bottom: 1em;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+}
+
+@media (min-width: 351px) and (max-width: 404px) {
+    .navbar-brand {
+        font-size: 100%;
+    }
+
+    .hometitle {
+        font-size: 300%;
+    }
+}
+
+@media (min-width: 404px) and (max-width: 800px) {
+    .hometitle {
+        font-size: 350%;
+    }
+
+    .navbar-brand {
+        font-size: 125%;
+    }
+
+}
+
+@media (min-width: 801px) {
+    .homePage {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .hometitle {
+        font-size: 400%;
+    }
+
+    .homePage {
+        padding: 5em;
+    }
+
+    .navbar-brand {
+        font-size: 200%;
+    }
+
+}
+
+
+.navbar {
+    background-color: rgb(29, 29, 29);
+    border-bottom: solid 4px rgb(0, 255, 149);
+}
+
+.navbar-brand {
+    font-family: "Sixtyfour", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: italic;
+    font-variation-settings:
+        "BLED" 0,
+        "SCAN" 0;
+    background-color: rgba(0, 255, 149, 0.24);
+    border-radius: 20px;
+    text-transform: uppercase;
+    border: rgba(245, 245, 245, 0.904) 3px double;
+}
+
+.homecont {
+    background-color: rgba(43, 226, 104, 0.185);
+    border-radius: 20px;
+}
+
+
+.hometitle {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    color: rgb(34, 34, 34);
+    text-wrap: wrap;
+    text-align: center;
+
+}
+
+.herotitle {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    border: rgba(245, 245, 245, 0.904) 3px double;
+    border-radius: 20px;
+    max-width: fit-content;
+    margin-top: 3em;
+
+
+}
+
+.titlecont {
+    border: solid whitesmoke 2px;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-decoration: double;
+
+
+}
+
+.card-title {
+    border-radius: 10px;
+    background-color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 95%;
+    color: rgb(22, 22, 22);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.card-img-top {
+    border-radius: 10px;
+}
+
+.card-img-top:hover {
+    transform: scale(1.025);
+}
+
+.card-text {
+    color:#343a40;
+    font-weight: bold;
+    text-align: start;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 1.5em;
+}
+
+.card {
+    border-radius: 15px;
+    background-color: #343a40;
+}
+
+.imgcol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-img {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 240px;
+    height: auto;
+}
+
+.cont-img:hover {
+    transform: scale(1.025);
+}
+
+.checked {
+    color: orange;
+}
+
+.colcard{
+    height:100%
+}
+
+.contactCont{
+    border-radius: 20px;
+}
